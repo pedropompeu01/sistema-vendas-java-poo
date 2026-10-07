@@ -30,35 +30,3 @@ src/
     ├── ListaItemVenda.java
     ├── ListaVendas.java
     └── Main.java
-
-
-🛠️ Tecnologias e Conceitos Aplicados
-Linguagem: Java
-
-Conceitos de POO: Classes, Objetos, Atributos, Encapsulamento, Métodos e Associações entre Classes.
-
-Estruturas de Dados: ArrayList para manipulação dinâmica das coleções em memória.
-
-Manipulação de Arquivos & Exceções: Uso de FileOutputStream, FileInputStream, Scanner, PrintStream e blocos try-catch para persistência robusta.
-
-🖥️ Como Executar o Projeto
-Certifique-se de ter o Java JDK instalado na sua máquina.
-
-Clone este repositório ou baixe os arquivos em formato ZIP.
-
-Abra a sua IDE favorita (como IntelliJ IDEA ou Eclipse) e configure o projeto mantendo a estrutura de pacotes src/projeto/.
-
-Execute a classe principal Main.java para iniciar o programa.
-
-📖 Como Utilizar o Sistema
-Ao executar a classe Main.java, o sistema exibirá um menu interativo no console com as seguintes opções:
-
-Produtos: Permite cadastrar novos produtos (gerando códigos automáticos), consultar por código, alterar informações, excluir produtos (desde que não estejam vinculados a vendas) e verificar o estoque.
-
-Clientes: Gerencia o cadastro de novos clientes, consultas detalhadas, alterações de dados e remoções.
-
-Vendas: Permite realizar vendas selecionando a modalidade (à vista ou a prazo), informando o cliente (quando a prazo), definindo a data de vencimento e adicionando os produtos desejados ao carrinho com baixa automática no estoque.
-
-Consultas: Oferece relatórios úteis, como a listagem de vendas realizadas em um determinado período (informando a data inicial e final) e a verificação de produtos com estoque abaixo do mínimo recomendado.
-
-Sair: Encerra a aplicação de forma segura, salvando automaticamente as informações nos arquivos de texto correspondentes (.txt).
