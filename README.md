@@ -20,7 +20,7 @@ Todos os arquivos estão organizados sob o pacote `projeto` dentro do diretório
 
 ```text
 src/
-└── projeto/
+└── projecao/
     ├── Cliente.java
     ├── ItemVenda.java
     ├── Produto.java
